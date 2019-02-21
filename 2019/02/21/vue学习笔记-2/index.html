@@ -94,18 +94,20 @@
 
 
 
-<meta name="description" content="1. 准备1.[].slice.call(lis): 将伪数组转换为真数组2.node.nodeType: 得到节点类型3.Object.defineProperty(obj, propertyName, {}): 给对象添加/修改属性(指定描述符)configurable: true/false 是否可以重新 defineenumerable: true/false 是否可以枚举(for..in">
+<meta name="description" content="1. 准备1.[].slice.call(lis): 将伪数组转换为真数组2.node.nodeType: 得到节点类型3.Object.defineProperty(obj, propertyName, {}): 给对象添加/修改属性(指定描述符)configurable: true/false 是否可以重新 defineenumerable: true/false 是否可以枚举(for..i">
 <meta name="keywords" content="vue,mvvm,compile">
 <meta property="og:type" content="article">
 <meta property="og:title" content="vue学习笔记(2)">
 <meta property="og:url" content="https://binote.github.io/2019/02/21/vue学习笔记-2/index.html">
 <meta property="og:site_name" content="JYC的博客">
-<meta property="og:description" content="1. 准备1.[].slice.call(lis): 将伪数组转换为真数组2.node.nodeType: 得到节点类型3.Object.defineProperty(obj, propertyName, {}): 给对象添加/修改属性(指定描述符)configurable: true/false 是否可以重新 defineenumerable: true/false 是否可以枚举(for..in">
+<meta property="og:description" content="1. 准备1.[].slice.call(lis): 将伪数组转换为真数组2.node.nodeType: 得到节点类型3.Object.defineProperty(obj, propertyName, {}): 给对象添加/修改属性(指定描述符)configurable: true/false 是否可以重新 defineenumerable: true/false 是否可以枚举(for..i">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-02-21T04:22:36.719Z">
+<meta property="og:image" content="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=b7703022c23d70cf58f7a25f99b5ba65/562c11dfa9ec8a13ab6935fbfc03918fa0ecc0be.jpg">
+<meta property="og:updated_time" content="2019-02-21T06:46:51.008Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="vue学习笔记(2)">
-<meta name="twitter:description" content="1. 准备1.[].slice.call(lis): 将伪数组转换为真数组2.node.nodeType: 得到节点类型3.Object.defineProperty(obj, propertyName, {}): 给对象添加/修改属性(指定描述符)configurable: true/false 是否可以重新 defineenumerable: true/false 是否可以枚举(for..in">
+<meta name="twitter:description" content="1. 准备1.[].slice.call(lis): 将伪数组转换为真数组2.node.nodeType: 得到节点类型3.Object.defineProperty(obj, propertyName, {}): 给对象添加/修改属性(指定描述符)configurable: true/false 是否可以重新 defineenumerable: true/false 是否可以枚举(for..i">
+<meta name="twitter:image" content="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=b7703022c23d70cf58f7a25f99b5ba65/562c11dfa9ec8a13ab6935fbfc03918fa0ecc0be.jpg">
 
 
 
@@ -355,6 +357,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/vue/" itemprop="url" rel="index">
+                    <span itemprop="name">vue</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -392,8 +416,10 @@
       
 
       
-        <h2 id="1-准备"><a href="#1-准备" class="headerlink" title="1. 准备"></a>1. 准备</h2><p>1.[].slice.call(lis): 将伪数组转换为真数组<br>2.node.nodeType: 得到节点类型<br>3.Object.defineProperty(obj, propertyName, {}): 给对象添加/修改属性(指定描述符)<br>configurable: true/false 是否可以重新 define<br>enumerable: true/false 是否可以枚举(for..in / keys())<br>value: 指定初始值<br>writable: true/false value 是否可以修改存取(访问)描述符<br>get: 函数, 用来得到当前属性值<br>set: 函数, 用来监视当前属性值的变化</p>
+        <p><img src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=b7703022c23d70cf58f7a25f99b5ba65/562c11dfa9ec8a13ab6935fbfc03918fa0ecc0be.jpg" alt="MVVM"></p>
+<h2 id="1-准备"><a href="#1-准备" class="headerlink" title="1. 准备"></a>1. 准备</h2><p>1.[].slice.call(lis): 将伪数组转换为真数组<br>2.node.nodeType: 得到节点类型<br>3.Object.defineProperty(obj, propertyName, {}): 给对象添加/修改属性(指定描述符)<br>configurable: true/false 是否可以重新 define<br>enumerable: true/false 是否可以枚举(for..in / keys())<br>value: 指定初始值<br>writable: true/false value 是否可以修改存取(访问)描述符<br>get: 函数, 用来得到当前属性值<br>set: 函数, 用来监视当前属性值的变化</p>
 <p>4.Object.keys(obj): 得到对象自身可枚举的属性名的数组<br>5.DocumentFragment: 文档碎片(高效批量更新多个节点)<br>6.obj.hasOwnProperty(prop): 判断 prop 是否是 obj 自身的属性</p>
+<a id="more"></a>
 <h2 id="2-数据代理-MVVM-js"><a href="#2-数据代理-MVVM-js" class="headerlink" title="2. 数据代理(MVVM.js)"></a>2. 数据代理(MVVM.js)</h2><p>1.通过一个对象代理对另一个对象中属性的操作(读/写)</p>
 <p>2.通过 vm 对象来代理 data 对象中所有属性的操作 3.好处: 更方便的操作 data 中的数据 4.基本实现流程<br>1). 通过 Object.defineProperty()给 vm 添加与 data 对象的属性对应的属性描述符<br>2). 所有添加的属性都包含 getter/setter<br>3). 在 getter/setter 内部去操作 data 中对应的属性数据</p>
 <h2 id="3-模板解析-compile-js"><a href="#3-模板解析-compile-js" class="headerlink" title="3. 模板解析(compile.js)"></a>3. 模板解析(compile.js)</h2><p>1.模板解析的关键对象: compile 对象 2.模板解析的基本流程:<br>1). 将 el 的所有子节点取出, 添加到一个新建的文档 fragment 对象中<br>2). 对 fragment 中的所有层次子节点递归进行编译解析处理<br>_ 对表达式文本节点进行解析<br>_ 对元素节点的指令属性进行解析<br>_ 事件指令解析<br>_ 一般指令解析<br>3). 将解析后的 fragment 添加到 el 中显示 3.解析表达式文本节点: textNode.textContent = value<br>1). 根据正则对象得到匹配出的表达式字符串: 子匹配/RegExp.\$1<br>2). 从 data 中取出表达式对应的属性值<br>3). 将属性值设置为文本节点的 textContent 4.事件指令解析: elementNode.addEventListener(事件名, 回调函数.bind(vm))<br>v-on:click=”test”<br>1). 从指令名中取出事件名<br>2). 根据指令的值(表达式)从 methods 中得到对应的事件处理函数对象<br>3). 给当前元素节点绑定指定事件名和回调函数的 dom 事件监听<br>4). 指令解析完后, 移除此指令属性 5.一般指令解析: elementNode.xxx = value<br>1). 得到指令名和指令值(表达式)<br>2). 从 data 中根据表达式得到对应的值<br>3). 根据指令名确定需要操作元素节点的什么属性<br>_ v-text—textContent 属性<br>_ v-html—innerHTML 属性 * v-class–className 属性<br>4). 将得到的表达式的值设置到对应的属性上<br>5). 移除元素的指令属性</p>

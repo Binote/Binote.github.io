@@ -418,10 +418,8 @@
 
       
         
-          
-          1. vuex 是什么github 站点: https://github.com/vuejs/vuex在线文档: https://vuex.vuejs.org/zh-cn/简单来说: 对应用中组件的状态进行集中式的管理(读/写)
-2. 状态自管理应用state: 驱动应用的数据源view: 以声明方
-          ...
+          <p><img src="https://vuex.vuejs.org/vuex.png" alt="vuex结构"></p>
+<h1 id="1-vuex-是什么"><a href="#1-vuex-是什么" class="headerlink" title="1. vuex 是什么"></a>1. vuex 是什么</h1><p>github 站点: <a href="https://github.com/vuejs/vuex" target="_blank" rel="noopener">https://github.com/vuejs/vuex</a><br>在线文档: <a href="https://vuex.vuejs.org/zh-cn/" target="_blank" rel="noopener">https://vuex.vuejs.org/zh-cn/</a><br>简单来说: 对应用中组件的状态进行集中式的管理(读/写)</p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2019/02/21/vue学习笔记-3/#more" rel="contents">
@@ -517,6 +515,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/vue/" itemprop="url" rel="index">
+                    <span itemprop="name">vue</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -555,9 +575,9 @@
 
       
         
-          
-          1. 准备1.[].slice.call(lis): 将伪数组转换为真数组2.node.nodeType: 得到节点类型3.Object.defineProperty(obj, propertyName, {}): 给对象添加/修改属性(指定描述符)configurable: true/false 
-          ...
+          <p><img src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=b7703022c23d70cf58f7a25f99b5ba65/562c11dfa9ec8a13ab6935fbfc03918fa0ecc0be.jpg" alt="MVVM"></p>
+<h2 id="1-准备"><a href="#1-准备" class="headerlink" title="1. 准备"></a>1. 准备</h2><p>1.[].slice.call(lis): 将伪数组转换为真数组<br>2.node.nodeType: 得到节点类型<br>3.Object.defineProperty(obj, propertyName, {}): 给对象添加/修改属性(指定描述符)<br>configurable: true/false 是否可以重新 define<br>enumerable: true/false 是否可以枚举(for..in / keys())<br>value: 指定初始值<br>writable: true/false value 是否可以修改存取(访问)描述符<br>get: 函数, 用来得到当前属性值<br>set: 函数, 用来监视当前属性值的变化</p>
+<p>4.Object.keys(obj): 得到对象自身可枚举的属性名的数组<br>5.DocumentFragment: 文档碎片(高效批量更新多个节点)<br>6.obj.hasOwnProperty(prop): 判断 prop 是否是 obj 自身的属性</p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2019/02/21/vue学习笔记-2/#more" rel="contents">
@@ -713,14 +733,12 @@
 
       
         
-          
-          1. vue 脚手架用来创建 vue 项目的工具包创建项目:
-12npm install -g vue-clivue init webpack VueDemo
-开发环境运行:
-123cd VueDemonpm installnpm run dev
-生产环境打包发布
-1234npm run build
-          ...
+          <h2 id="1-vue-脚手架"><a href="#1-vue-脚手架" class="headerlink" title="1. vue 脚手架"></a>1. vue 脚手架</h2><p>用来创建 vue 项目的工具包<br>创建项目:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install -g vue-cli</span><br><span class="line">vue init webpack VueDemo</span><br></pre></td></tr></table></figure>
+<pre><code>开发环境运行:
+</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> VueDemo</span><br><span class="line">npm install</span><br><span class="line">npm run dev</span><br></pre></td></tr></table></figure>
+<pre><code>生产环境打包发布
+</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm run build</span><br><span class="line">npm install -g serve</span><br><span class="line">serve dist</span><br><span class="line">http://localhost:5000</span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2019/02/21/vue学习笔记-1/#more" rel="contents">
@@ -876,9 +894,8 @@
 
       
         
-          
-          1. Vue.js 是什么?1). 一位华裔前 Google 工程师(尤雨溪)开发的前端 js 库2). 作用: 动态构建用户界面3). 特点:_ 遵循 MVVM 模式_ 编码简洁, 体积小, 运行效率高, 移动/PC 端开发_ 它本身只关注 UI, 可以轻松引入 vue 插件和其它第三库开发项目4
-          ...
+          <p><img src="https://lc-gold-cdn.xitu.io/e92dd2ad139aad1dd2cb.png?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1" alt="vue"></p>
+<h1 id="1-Vue-js-是什么"><a href="#1-Vue-js-是什么" class="headerlink" title="1. Vue.js 是什么?"></a>1. Vue.js 是什么?</h1><p>1). 一位华裔前 Google 工程师(尤雨溪)开发的前端 js 库<br>2). 作用: 动态构建用户界面<br>3). 特点:<br>_ 遵循 MVVM 模式<br>_ 编码简洁, 体积小, 运行效率高, 移动/PC 端开发<br>_ 它本身只关注 UI, 可以轻松引入 vue 插件和其它第三库开发项目<br>4). 与其它框架的关联:<br>_ 借鉴 angular 的模板和数据绑定技术<br>_ 借鉴 react 的组件化和虚拟 DOM 技术<br>5). vue 包含一系列的扩展插件(库):<br>_ vue-cli: vue 脚手架<br>_ vue-resource(axios): ajax 请求<br>_ vue-router: 路由<br>_ vuex: 状态管理<br>_ vue-lazyload: 图片懒加载<br>_ vue-scroller: 页面滑动相关<br>_ mint-ui: 基于 vue 的组件库(移动端) * element-ui: 基于 vue 的组件库(PC 端)</p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2019/02/21/vue学习笔记-0/#more" rel="contents">
@@ -1034,11 +1051,9 @@
 
       
         
-          
-          nodejs 使用 axios 访问微信小程序 getwxacodeunlimit 接口批量生成小程序码保存本地方法
-axios 方法使用 axios 访问接口，设置 responseType: ‘arraybuffer’
-12345678910111213141516171819202122232
-          ...
+          <p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1550741813393&amp;di=75757328839b4e8d128bfa2385ca9dc8&amp;imgtype=0&amp;src=http%3A%2F%2Fwww.jetsum.net%2Fu%2Fcms%2Fwhjxxxjsyxgs%2F201812%2F06134442avzc.png" alt="微信小程序"></p>
+<p>nodejs 使用 axios 访问微信小程序 getwxacodeunlimit 接口<br>批量生成小程序码保存本地方法</p>
+<h2 id="axios-方法"><a href="#axios-方法" class="headerlink" title="axios 方法"></a>axios 方法</h2><p>使用 axios 访问接口，设置 responseType: ‘arraybuffer’</p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2019/02/20/nodejs使用axios访问微信小程序getwxacodeunlimit接口批量生成小程序码保存本地方法/#more" rel="contents">
