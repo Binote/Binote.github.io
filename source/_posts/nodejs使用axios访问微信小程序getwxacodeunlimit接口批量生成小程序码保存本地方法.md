@@ -10,12 +10,16 @@ categories:
   - nodejs
 ---
 
-nodejs 使用 axios 访问微信小程序 getwxacodeunlimit 接口<br/>
-批量生成小程序码保存本地方法<br/>
+![微信小程序](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550741813393&di=75757328839b4e8d128bfa2385ca9dc8&imgtype=0&src=http%3A%2F%2Fwww.jetsum.net%2Fu%2Fcms%2Fwhjxxxjsyxgs%2F201812%2F06134442avzc.png)
+
+nodejs 使用 axios 访问微信小程序 getwxacodeunlimit 接口
+批量生成小程序码保存本地方法
 
 ## axios 方法
 
 使用 axios 访问接口，设置 responseType: 'arraybuffer'
+
+<!-- more -->
 
 ```javascript
   /**
